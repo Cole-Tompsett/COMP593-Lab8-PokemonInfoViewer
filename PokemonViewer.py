@@ -41,8 +41,8 @@ def main():
 
         poke_dict = Getting_poke_info(pokemon_name)
         if poke_dict:
-            lbl_height_result['text'] = str(poke_dict['height'])+'dm'
-            lbl_weight_result['text'] = str(poke_dict['weight'])+'hg'
+            lbl_height_result['text'] = str(poke_dict['height'])+' dm'
+            lbl_weight_result['text'] = str(poke_dict['weight'])+' hg'
             lbl_name_result['text'] = poke_dict['name']
             lbl_number_result['text'] = poke_dict['id']
 
